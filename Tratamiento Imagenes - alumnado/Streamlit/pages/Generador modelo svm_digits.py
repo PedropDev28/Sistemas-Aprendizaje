@@ -30,3 +30,7 @@ modelo = {
 # Serializar con pickle
 with open("svm_digits_model.pkl", "wb") as f:
     pickle.dump(modelo, f)
+
+
+st.markdown("Modelo SVM para clasificar dígitos guardado en `svm_digits_model.pkl`")
+st.markdown("¡Listo para ser usado en la predicción!")
